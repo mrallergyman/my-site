@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 928px;
+  max-width: 928px; /*максимальная ширина*/
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -30,7 +30,7 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #fea18d;
+  color: red;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -41,26 +41,18 @@ body {
   background-image: url("img/icon-email.svg");
 }
 
+.menu {
+  padding: 0;
+  list-style: none;
+}
+
+.menu a{
+  color: #fea18d;
+  text-decoration: none;
+}
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
-}
-
-.menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-.menu li {
-  display: inline-block;
-  margin-right: 50px;
-}
-.menu a {
-  color: #f2f2f2;
-  text-decoration: none;
-  display: block;
 }
 
 .hero-image {
